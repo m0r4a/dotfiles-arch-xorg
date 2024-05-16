@@ -7,7 +7,7 @@ These were my dotfiles back when I was on ArchLinux + Xorg, I would not recommen
 
 # Table of Contents
 
-- [Arch Installation](#arch-installation)
+- [Arch Installation](https://github.com/m0r4a/ArchLinux-install-guide)
 - [Packages](#packages)
   - [With custom config](#with-custom-config)
   - [Without custom config](#without-custom-config)
@@ -263,7 +263,7 @@ git config --global init.defaultBranch <name>
 
 ## Todoist
 
-### You have to have configured a default desktop, here's little guide about how to do it on Arch
+### You have to have configured a default browser, here's little guide about how to do it on Arch
 
 #### Install xdg-utils
 
