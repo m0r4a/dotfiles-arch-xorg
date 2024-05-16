@@ -7,7 +7,7 @@ These were my dotfiles back when I was on ArchLinux + Xorg, I would not recommen
 
 # Table of Contents
 
-- [Arch Installation](https://github.com/m0r4a/ArchLinux-install-guide)
+- [Arch Installation guide](https://github.com/m0r4a/ArchLinux-install-guide)
 - [Packages](#packages)
   - [With custom config](#with-custom-config)
   - [Without custom config](#without-custom-config)
@@ -102,7 +102,7 @@ These were my dotfiles back when I was on ArchLinux + Xorg, I would not recommen
 
 ![Gruvbox theme](resources/gruvbox_theme_preview.jpeg)
 
-#### Focus Theme
+#### Focus
 
 ![Focus theme](resources/focus_theme_preview.jpeg)
 

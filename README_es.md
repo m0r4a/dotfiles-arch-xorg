@@ -2,17 +2,17 @@
 
 🇲🇽 [Versión en inglés](/README.md)
 
-Estos eran mis dotfiles de ArchLinux + Xorg, no recomendaría usarlos tal como están, ya que están muy desactualizados y están rotos.
+Estos eran mis dotfiles de ArchLinux + Xorg, no recomendaría usarlos tal como están, ya que están muy desactualizados y probablemente rotos.
 
 ## Tabla de Contenidos
 
-- [Instalación de Arch](https://github.com/m0r4a/ArchLinux-install-guide)
+- [Guía para instalar Arch (en inglés)](https://github.com/m0r4a/ArchLinux-install-guide)
 - [Paquetes](#paquetes)
   - [Con configuración personalizada](#con-configuración-personalizada)
   - [Configuración predeterminada](#configuración-predeterminada)
 - [Qtile](#qtile)
 - [Repositorio BlackArch](#repositorio-blackarch)
-- [Configuraciones en detalle](#configuraciones-en-detalle)
+- [Configuraciones detalladas](#configuraciones-detalladas)
 
 ### Paquetes
 
@@ -31,7 +31,7 @@ Estos eran mis dotfiles de ArchLinux + Xorg, no recomendaría usarlos tal como e
 | spectacle | utilidad de captura de pantalla |
 | ly | Gestor de pantalla |
 
-##### Basado en Terminal
+##### Solo Terminal
 | Aplicación | Uso |
 |:-----------:|:----:|
 | [ picom ](https://wiki.archlinux.org/title/picom "Entrada de Picom en ArchWiki") | compositor |
@@ -62,7 +62,7 @@ Estos eran mis dotfiles de ArchLinux + Xorg, no recomendaría usarlos tal como e
 | qt5ct | Igual que lxappearance |
 | Apostrophe | Editor de MD |
 
-##### Basado en Terminal
+##### Solo Terminal
 
 | Aplicación | Uso |
 |:-----------:|:----:|
@@ -94,13 +94,13 @@ Estos eran mis dotfiles de ArchLinux + Xorg, no recomendaría usarlos tal como e
 
 ![Tema de Gruvbox](resources/gruvbox_theme_preview.jpeg)
 
-#### Tema Focus
+#### Focus
 
 ![Tema de Focus](resources/focus_theme_preview.jpeg)
 
 #### Cyberpunk
 
-_No hay vista previa disponible_
+_Sin vista previa_
 
 ### Aplicaciones utilizadas en el archivo de configuración:
 
@@ -110,7 +110,7 @@ Instala la nerdfont "Hack" de [aquí](https://www.nerdfonts.com/font-downloads),
 
 *Nota: Si utilizas un terminal diferente, cámbialo en ~/.config/qtile/settings/keys.py en `my_terminal = alacritty`*
 
-### Dependencias de Pip 
+### Dependencias de pip 
 
 ```bash
 pip install psutil dbus-next
@@ -126,7 +126,7 @@ pip install psutil dbus-next
 sudo pacman -S curl
 ```
 
-- Descarga el script de configuración usando:
+- Descarga el script de configuración con:
 
 ``` bash
 curl -O https://blackarch.org/strap.sh
@@ -146,19 +146,19 @@ rm strap.sh
 pacman -Sgg | grep blackarch | cut -d ' ' -f2 | sort -u
 ```
 
-#### Lista todas las categorías de blackarch
+#### Lista todas las categorías que tiene balackarch
 
 ```bash
 pacman -Sg | grep blackarch | sed 's/blackarch-/ /'
 ```
 
-#### Instala toda una categoría
+#### Instala una categoría completa
 
 ```bash
 sudo pacman -S blackarch-category
 ```
 
-# Configuraciones en detalle
+# Configuraciones detalladas
 
 - [Neovim](#neovim)
 - [Zsh](#zsh)
@@ -172,7 +172,7 @@ sudo pacman -S blackarch-category
 Estoy utilizando la configuración de lunarivm, puedes encontrar la guía de instalación [aquí](https://www.lunarvim.org/docs/installation)
 
 
-_Nota: instala xsel para nvim_
+_Nota: instalar xsel para nvim_
 
 
 ## Zsh
@@ -218,7 +218,7 @@ cd eww
 cargo build --release
 ```
 
-Compila para wayland:
+Compilación para wayland:
 
 ```bash
 cargo build --release --no-default-features --features=wayland
@@ -226,7 +226,7 @@ cargo build --release --no-default-features --features=wayland
 
 ## Yay
 
-### Guía de instalación corta
+### Guía corta de instalación 
 
 ```bash
 cd /opt
@@ -238,14 +238,14 @@ makepkg -si
 
 ## Git
 
-### Configura git con:
+### Comandos para configurar git:
 
 ```bash
-git config --global user.email "you@example.com"  
+git config --global user.email "tu@ejemplo.com"  
 ```
 
 ```bash
-git config --global user.name "Your Name"
+git config --global user.name "Tu nombre"
 ```
 
 ```bash
