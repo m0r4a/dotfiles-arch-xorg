@@ -2,7 +2,7 @@
 
 🇺🇸 [Versión en inglés](/README.md)
 
-## Notes
+## Notas
 
 - Estos eran mis dotfiles de ArchLinux + Xorg, no recomendaría usarlos tal como están, ya que están muy desactualizados y probablemente rotos.
 
