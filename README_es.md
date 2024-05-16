@@ -1,6 +1,6 @@
 # Dotfiles / 14 de febrero de 2023 - 14 de marzo de 2023
 
-🇲🇽 [Versión en inglés](/README.md)
+🇺🇸 [Versión en inglés](/README.md)
 
 ## Notes
 
