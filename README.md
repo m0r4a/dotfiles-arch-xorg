@@ -5,6 +5,10 @@
 
 These were my dotfiles back when I was on ArchLinux + Xorg, I would not recommend using them as they are since they are very outdated and might be broken.
 
+This was my first time on Linux and there are a lot of things pooly done. 
+
+Since im not planning on using Xorg for my personal use anymore this dotfiles are highly deprecated so this repository will be archived indefinitely.
+
 # Table of Contents
 
 - [Arch Installation guide](https://github.com/m0r4a/ArchLinux-install-guide)
