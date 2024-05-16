@@ -2,7 +2,13 @@
 
 🇲🇽 [Versión en inglés](/README.md)
 
-Estos eran mis dotfiles de ArchLinux + Xorg, no recomendaría usarlos tal como están, ya que están muy desactualizados y probablemente rotos.
+## Notes
+
+- Estos eran mis dotfiles de ArchLinux + Xorg, no recomendaría usarlos tal como están, ya que están muy desactualizados y probablemente rotos.
+
+- Esta fue mi primera vez estando en linux así que hay muchas cosas mal hechas.
+
+- Como no pienso volver a usar Xorg para uso personal estos dotfiles están muy obsolteos así que archivaré el repositorio indefinidamente. 
 
 ## Tabla de Contenidos
 
