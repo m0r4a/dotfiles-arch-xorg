@@ -3,7 +3,7 @@
 
 🇲🇽  [ Versión en español](/README_es.md)
 
-These are the dotfiles for my Arch Linux
+These were my dotfiles back when I was on ArchLinux + Xorg, I would not recommend using them as they are since they are very outdated and might be broken.
 
 # Table of Contents
 
@@ -11,7 +11,6 @@ These are the dotfiles for my Arch Linux
 - [Packages](#packages)
   - [With custom config](#with-custom-config)
   - [Without custom config](#without-custom-config)
-- [Basic sys utils](#basic-sys-utils)
 - [Qtile](#qtile)
 - [BlackArch repo](#blackarch-repo)
 - [Configs in detail](#configs-in-detail)
@@ -98,9 +97,6 @@ These are the dotfiles for my Arch Linux
 
 ### Aviable themes
 
-#### Cyberpunk
-
-_No preview available_
 
 #### Gruvbox
 
@@ -109,6 +105,11 @@ _No preview available_
 #### Focus Theme
 
 ![Focus theme](resources/focus_theme_preview.jpeg)
+
+#### Cyberpunk
+
+_No preview available_
+
 
 ### Apps used in the config file:
 
@@ -171,8 +172,10 @@ sudo pacman -S blackarch-category
 
 - [Neovim](#neovim)
 - [Zsh](#zsh)
+- [Eww](#eww)
 - [Yay](#yay)
 - [Git](#git)
+- [Todoist](#todoist)
 
 ## Neovim
 
